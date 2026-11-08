@@ -4,156 +4,460 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Explore construction calculations, concrete estimation, building materials, measurements and practical engineering resources.">
+
+  <title>10 Useful Construction Calculators | Engineering Resource Guide</title>
+
+  <meta name="description" content="Explore 10 useful construction calculators for concrete, lumber, gravel, roofing, sand, bricks, cement, flooring and drywall estimation.">
+
   <meta name="robots" content="index, follow">
-  <title>Construction Calculators & Engineering Resources</title>
+
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      color: #243044;
-      background: #f5f7fa;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f7f6;
+      color: #26352f;
       line-height: 1.7;
     }
+
     header {
       background: #173b32;
       color: white;
-      padding: 45px 20px;
+      padding: 65px 20px;
       text-align: center;
     }
-    header h1 { font-size: clamp(28px, 5vw, 42px); margin: 0 0 12px; }
-    header p { max-width: 700px; margin: auto; color: #e0eee8; }
-    main { max-width: 1000px; margin: 35px auto; padding: 0 20px; }
-    section {
+
+    header h1 {
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.2;
+      margin: 0 0 18px;
+    }
+
+    header p {
+      max-width: 750px;
+      margin: auto;
+      color: #dcebe5;
+      font-size: 17px;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
+    .intro,
+    .calculator-card,
+    .conclusion {
       background: white;
       padding: 25px;
+      border: 1px solid #e3eae6;
+      border-radius: 12px;
       margin-bottom: 22px;
-      border-radius: 12px;
-      border: 1px solid #e5e9ef;
     }
-    h2 { color: #173b32; margin-top: 0; }
-    h3 { margin-bottom: 8px; color: #263b35; }
-    a { color: #087b62; font-weight: 600; }
-    .resource {
-      border-bottom: 1px solid #e8edf0;
-      padding: 12px 0;
+
+    h2 {
+      color: #173b32;
+      margin-top: 0;
     }
-    .resource:last-child { border-bottom: 0; }
-    .cta {
-      background: #eaf5ef;
+
+    h3 {
+      color: #204b3d;
+      margin: 0 0 12px;
+      font-size: 21px;
+    }
+
+    .calculator-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .calculator-card {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .calculator-card p {
+      margin: 8px 0 14px;
+    }
+
+    .calculator-card .use-case {
+      background: #f1f6f3;
+      padding: 12px;
+      border-radius: 7px;
+      font-size: 14px;
+      margin-top: auto;
+      margin-bottom: 16px;
+    }
+
+    .calculator-card a {
+      color: #08785e;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .calculator-card a:hover {
+      text-decoration: underline;
+    }
+
+    .number {
+      display: inline-block;
+      background: #e5f2eb;
+      color: #17634e;
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      width: fit-content;
+    }
+
+    .conclusion {
       text-align: center;
-      padding: 35px 20px;
-      border-radius: 12px;
+      padding: 35px 25px;
+      background: #e8f3ed;
     }
-    .cta a {
+
+    .main-link {
       display: inline-block;
       background: #17634e;
       color: white;
-      padding: 12px 22px;
+      padding: 13px 25px;
       border-radius: 7px;
       text-decoration: none;
-      margin-top: 10px;
+      font-weight: bold;
+      margin-top: 12px;
     }
+
     footer {
-      text-align: center;
-      padding: 25px;
       background: #173b32;
       color: white;
+      text-align: center;
+      padding: 28px 15px;
     }
-    footer a { color: #b9ead8; }
+
+    footer a {
+      color: #c2e8d7;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        padding: 45px 20px;
+      }
+
+      .calculator-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .intro,
+      .calculator-card,
+      .conclusion {
+        padding: 20px;
+      }
+    }
   </style>
 </head>
+
 <body>
 
 <header>
-  <h1>Construction Calculators & Resources</h1>
-  <p>A practical resource for builders, contractors, engineers,
-  construction professionals and DIY enthusiasts.</p>
+  <h1>10 Essential Construction Calculators</h1>
+  <p>
+    A practical guide to estimating construction materials,
+    measuring building areas and planning everyday projects.
+  </p>
 </header>
 
-<main>
-  <section>
+<main class="container">
+
+  <section class="intro">
     <h2>Introduction to Construction Calculations</h2>
+
     <p>
-      Accurate calculations are an important part of every
-      construction project. From estimating concrete quantities
-      to measuring building materials, proper calculations help
-      reduce waste and improve project planning.
+      Construction planning involves measurements, material
+      quantities and accurate estimates. Whether you are working
+      on a residential building, renovation or landscaping project,
+      understanding basic calculations can help reduce material
+      waste and improve project planning.
     </p>
+
     <p>
-      This resource introduces common construction calculation
-      topics and useful online tools for everyday projects.
+      This guide introduces ten useful construction calculation
+      topics and provides links to online calculators that can
+      assist with these tasks.
     </p>
   </section>
 
   <section>
-    <h2>1. Concrete Quantity Estimation</h2>
+    <h2>Construction Calculator Directory</h2>
     <p>
-      Concrete estimation involves calculating the volume of
-      concrete required for slabs, foundations, columns and beams.
-      Measurements generally use length, width and depth.
+      Explore the following calculators according to your
+      construction project's requirements.
     </p>
-    <p>
-      Accurate volume calculations help contractors estimate
-      material requirements and plan concrete orders.
-    </p>
-  </section>
 
-  <section>
-    <h2>2. Building Material Calculations</h2>
-    <p>
-      Construction projects require estimates for bricks, blocks,
-      cement, sand and other building materials. Understanding
-      dimensions and quantities helps with budgeting and purchasing.
-    </p>
-  </section>
+    <div class="calculator-grid">
 
-  <section>
-    <h2>3. Construction Measurements</h2>
-    <p>
-      Length, area, volume and unit conversions are frequently
-      used in residential and commercial construction.
-      Consistent units help prevent measurement errors.
-    </p>
-  </section>
+      <article class="calculator-card">
+        <span class="number">01 · Concrete</span>
+        <h3>Concrete Calculator</h3>
+        <p>
+          Concrete estimation starts with measuring the length,
+          width and depth of a slab or other structure. These
+          dimensions help determine the required concrete volume.
+        </p>
+        <p>
+          Concrete quantity calculations are useful for slabs,
+          foundations, footings and other common building projects.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Estimating concrete volume
+          before ordering ready-mix concrete.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/concrete-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Concrete Calculator →
+        </a>
+      </article>
 
-  <section>
-    <h2>4. Project Estimation and Planning</h2>
-    <p>
-      Project estimation combines measurements, material quantities
-      and other project requirements. A structured estimation
-      process makes construction planning easier.
-    </p>
-  </section>
+      <article class="calculator-card">
+        <span class="number">02 · Lumber</span>
+        <h3>Board Foot Calculator</h3>
+        <p>
+          Board feet are a standard lumber measurement used to
+          describe wood volume. The calculation uses board
+          thickness, width and length.
+        </p>
+        <p>
+          It is useful when estimating lumber quantities for
+          furniture, framing and woodworking projects.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Estimating the volume of
+          lumber required for a project.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/board-foot-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Board Foot Calculator →
+        </a>
+      </article>
 
-  <section>
-    <h2>Useful Online Construction Calculator Resource</h2>
-    <div class="resource">
-      <h3>BuildNumerics – Free Construction Calculators</h3>
-      <p>
-        BuildNumerics provides free online construction calculators
-        covering building materials, measurements, estimation
-        and practical engineering calculations.
-      </p>
-      <a href="https://www.buildnumerics.com/"
-         target="_blank" rel="noopener noreferrer">
-        Explore BuildNumerics Construction Calculators
-      </a>
+      <article class="calculator-card">
+        <span class="number">03 · Aggregates</span>
+        <h3>Gravel Calculator</h3>
+        <p>
+          Gravel estimation requires measuring the area to cover
+          and the required material depth. The volume can then
+          be estimated for purchasing and delivery planning.
+        </p>
+        <p>
+          Gravel is commonly used for driveways, paths, drainage
+          projects and landscaping.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Estimating gravel quantities
+          for a driveway or garden path.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/gravel-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Gravel Calculator →
+        </a>
+      </article>
+
+      <article class="calculator-card">
+        <span class="number">04 · Roofing</span>
+        <h3>Roof Pitch Calculator</h3>
+        <p>
+          Roof pitch describes the steepness of a roof. It is
+          commonly expressed as the vertical rise over a
+          horizontal run.
+        </p>
+        <p>
+          Understanding roof pitch helps with roof planning,
+          measurements and selecting suitable roofing materials.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Understanding roof slope
+          from rise and run measurements.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/roof-pitch-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Roof Pitch Calculator →
+        </a>
+      </article>
+
+      <article class="calculator-card">
+        <span class="number">05 · Roofing</span>
+        <h3>Roofing Calculator</h3>
+        <p>
+          Roof area estimation helps determine the surface area
+          that needs roofing materials. Roof geometry and slope
+          should be considered rather than relying only on the
+          building footprint.
+        </p>
+        <p>
+          This information supports material planning for
+          residential roofing projects.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Planning roofing material
+          quantities for a building.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/roofing-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Roofing Calculator →
+        </a>
+      </article>
+
+      <article class="calculator-card">
+        <span class="number">06 · Aggregates</span>
+        <h3>Sand Calculator</h3>
+        <p>
+          Sand quantity estimation is useful for construction,
+          paving, bedding and landscaping. The required quantity
+          depends on the area and depth of the material.
+        </p>
+        <p>
+          Volume and material density are important when converting
+          measurements into purchasing quantities.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Estimating sand requirements
+          for a construction or paving area.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/sand-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Sand Calculator →
+        </a>
+      </article>
+
+      <article class="calculator-card">
+        <span class="number">07 · Masonry</span>
+        <h3>Brick Calculator</h3>
+        <p>
+          Brick estimation involves measuring the wall dimensions
+          and considering the dimensions of individual bricks.
+          Mortar joints and openings can affect the final quantity.
+        </p>
+        <p>
+          A good estimate helps with ordering materials and
+          planning masonry work.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Estimating bricks required
+          for a wall.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/brick-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Brick Calculator →
+        </a>
+      </article>
+
+      <article class="calculator-card">
+        <span class="number">08 · Cement</span>
+        <h3>Cement Calculator</h3>
+        <p>
+          Cement estimation depends on the construction task,
+          material proportions and required volume. Different
+          applications can have different mix requirements.
+        </p>
+        <p>
+          Accurate project specifications should always be used
+          when planning cement quantities.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Planning cement requirements
+          for construction work.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/cement-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Cement Calculator →
+        </a>
+      </article>
+
+      <article class="calculator-card">
+        <span class="number">09 · Flooring</span>
+        <h3>Flooring Calculator</h3>
+        <p>
+          Flooring estimation starts with measuring the floor
+          area. Room dimensions help determine the amount of
+          flooring material needed.
+        </p>
+        <p>
+          Tile or flooring layout, cutting and installation waste
+          should also be considered when purchasing materials.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Estimating flooring
+          requirements for rooms and interior spaces.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/flooring-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Flooring Calculator →
+        </a>
+      </article>
+
+      <article class="calculator-card">
+        <span class="number">10 · Interior</span>
+        <h3>Drywall Calculator</h3>
+        <p>
+          Drywall estimation involves measuring wall and ceiling
+          surfaces and accounting for doors, windows and sheet
+          dimensions.
+        </p>
+        <p>
+          The estimated area helps contractors plan drywall
+          purchases and installation work.
+        </p>
+        <div class="use-case">
+          <strong>Common use:</strong> Estimating drywall sheets
+          for interior walls and ceilings.
+        </div>
+        <a href="https://www.buildnumerics.com/calculators/drywall-calculator"
+           target="_blank" rel="noopener noreferrer">
+          Use Drywall Calculator →
+        </a>
+      </article>
+
     </div>
   </section>
 
-  <section class="cta">
-    <h2>Explore Construction Calculators</h2>
+  <section class="intro">
+    <h2>Tips for More Accurate Construction Estimates</h2>
+
+    <ul>
+      <li>Measure project dimensions carefully.</li>
+      <li>Use consistent units throughout each calculation.</li>
+      <li>Account for openings and irregular shapes where relevant.</li>
+      <li>Check material specifications and supplier information.</li>
+      <li>Review waste and cutting allowances before ordering.</li>
+      <li>Confirm structural and building-code requirements
+          with qualified professionals.</li>
+    </ul>
+  </section>
+
+  <section class="conclusion">
+    <h2>Explore More Construction Calculators</h2>
+
     <p>
-      Find useful online calculation resources for construction
-      measurements, materials and engineering projects.
+      BuildNumerics offers online calculators for construction
+      materials, measurements, estimation and practical
+      engineering calculations.
     </p>
-    <a href="https://www.buildnumerics.com/"
-       target="_blank" rel="noopener noreferrer">
-      Visit BuildNumerics
+
+    <a class="main-link"
+       href="https://www.buildnumerics.com/"
+       target="_blank"
+       rel="noopener noreferrer">
+      Explore BuildNumerics →
     </a>
   </section>
+
 </main>
 
 <footer>
