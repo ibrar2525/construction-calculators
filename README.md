@@ -17,3 +17,14 @@ Welcome to Construction Calculators, a resource for construction professionals, 
 ## Explore BuildNumerics
 
 Visit https://www.buildnumerics.com/ to explore free construction calculators and useful calculation resources.
+
+
+## Construction Calculator Directory
+
+Explore our collection of 10 essential construction calculators for estimating concrete, lumber, gravel, roofing, sand, bricks, cement, flooring, and drywall materials.
+
+[Explore the 10 Essential Construction Calculators](https://ibrar2525.github.io/construction-calculators/)
+
+## Website
+
+Visit [BuildNumerics](https://www.buildnumerics.com/) for free online construction calculators, building material estimates, and practical engineering tools.
